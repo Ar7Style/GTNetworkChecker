@@ -1,8 +1,8 @@
 {
   "name": "GTNetworkChecker",
   "version": "0.1.0",
-  "summary": "A short description of GTNetworkChecker.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Library that helps check internet quality of iOS device.",
+  "description": "Library helps check internet speed and quality of iOS device programmatically",
   "homepage": "https://github.com/Ar7Style/GTNetworkChecker",
   "license": {
     "type": "MIT",

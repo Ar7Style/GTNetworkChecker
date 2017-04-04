@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Reachability.h"
 
 FOUNDATION_EXPORT double GTNetworkCheckerVersionNumber;
 FOUNDATION_EXPORT const unsigned char GTNetworkCheckerVersionString[];
