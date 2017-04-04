@@ -1,0 +1,6 @@
+framework module GTNetworkChecker {
+  umbrella header "GTNetworkChecker-umbrella.h"
+
+  export *
+  module * { export * }
+}

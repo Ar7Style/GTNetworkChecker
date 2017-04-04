@@ -1,0 +1,16 @@
+PODS:
+  - GTNetworkChecker (0.1.0)
+
+DEPENDENCIES:
+  - GTNetworkChecker (from `../`)
+
+EXTERNAL SOURCES:
+  GTNetworkChecker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTNetworkChecker: 54f97c5e8ae3cb803777583954a4ec1c1f2598f6
+
+PODFILE CHECKSUM: e367bec1d532225a59363bb4292afd3f2431eafe
+
+COCOAPODS: 1.2.0
