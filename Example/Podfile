@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GTNetworkChecker_Example' do
+  pod 'GTNetworkChecker', :path => '../'
+
+  target 'GTNetworkChecker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
