@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		060583231E93CC3200A141D8 /* APLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060583221E93CC3200A141D8 /* APLViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34FCBF41AE060875A8ECD706 /* GTNetworkChecker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GTNetworkChecker.podspec; path = ../GTNetworkChecker.podspec; sourceTree = "<group>"; };
-		420FAF3E41F65F6CFEA6EDC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		58BA2D99EABC7BC93E68029C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		060583211E93CC3200A141D8 /* APLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLViewController.h; sourceTree = "<group>"; };
+		060583221E93CC3200A141D8 /* APLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLViewController.m; sourceTree = "<group>"; };
+		34FCBF41AE060875A8ECD706 /* GTNetworkChecker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GTNetworkChecker.podspec; path = ../GTNetworkChecker.podspec; sourceTree = "<group>"; };
+		420FAF3E41F65F6CFEA6EDC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		58BA2D99EABC7BC93E68029C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GTNetworkChecker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTNetworkChecker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* GTViewController.h */,
 				6003F5A6195388D20070C39A /* GTViewController.m */,
+				060583211E93CC3200A141D8 /* APLViewController.h */,
+				060583221E93CC3200A141D8 /* APLViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -396,6 +401,7 @@
 			files = (
 				6003F59E195388D20070C39A /* GTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GTViewController.m in Sources */,
+				060583231E93CC3200A141D8 /* APLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
