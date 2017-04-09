@@ -7,67 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		060583201E93C8B500A141D8 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBAF342EA9FE450B34447FD616188A3 /* Reachability.h */; };
-		06E70F61FA41EC8A61486B993C9576B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1C049BFF5D86F3C9A45EE16570E7D573 /* Pods-GTNetworkChecker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC7DD6DEA54614D250617A28558B63D /* Pods-GTNetworkChecker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3959109EB11561D9F95407DFDE3BA9EF /* GTNetworkChecker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 187F8B61855435396AFF493AE25E26D4 /* GTNetworkChecker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48AA1E088EB1C42578C7D20BA3843891 /* Pods-GTNetworkChecker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F21FDB92ABEB9DA1296E3A3CF40B6 /* Pods-GTNetworkChecker_Example-dummy.m */; };
-		5306448D88FCAAC1E80B505817A3B286 /* GTNetworkChecker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 415C07FB0BF7E8A3EDAB580C201423B4 /* GTNetworkChecker-dummy.m */; };
+		18F7FE6412B499451B34C6639B8847D2 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BCF2D5E4A30368F648478EB3E06B06 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EEA0CF51E01FCFC88EE454BBAEEF352 /* GBPing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 533DB57D98E8F754E0A2C7A9B8F88075 /* GBPing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		315CFFBFD2E71C08E05164104A87C309 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4484AC1E9638768CD2DCFA40A33217C7 /* Reachability.m */; };
+		40BCD6165E2BC9E0DD1FE2586C1D4D44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4B712F3802175FE97CD6868554A4F989 /* Pods-GTNetworkChecker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F21FDB92ABEB9DA1296E3A3CF40B6 /* Pods-GTNetworkChecker_Example-dummy.m */; };
+		4F2FC87988E9F788A0721E9A3831E01A /* Pods-GTNetworkChecker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC7DD6DEA54614D250617A28558B63D /* Pods-GTNetworkChecker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		654BF82A1108048B9E54CD8F2202B63B /* GBPingSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F5F4750A15A336760A6460830E787 /* GBPingSummary.m */; };
 		68DBBEF1DF408731A16A7A7958599658 /* Pods-GTNetworkChecker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5742B84F1BC9678F1AE07311877C84B8 /* Pods-GTNetworkChecker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A348A1B839C8782C102A643BB174F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6E701B33997365427F0CCA58DB1F27AA /* GTNetworkChecker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 187F8B61855435396AFF493AE25E26D4 /* GTNetworkChecker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		823817D3F0AAE737D601C44535811B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8DCDF62C003E44D5A3A79398C1713DD8 /* Pods-GTNetworkChecker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D99369D5C84BA45167B86D974F5BC /* Pods-GTNetworkChecker_Tests-dummy.m */; };
-		D461CC2FF00963CDD041053E3C48E03D /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBAF342EA9FE450B34447FD616188A3 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5A98931ABD16AFE454C63334AAD6F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F4639907817E426A07DE0D445A4A46C9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BB72123B79CFFF0A39A86C7824932F /* Reachability.m */; };
+		AF4199130874A2F6CBE419898983768C /* GBPing.m in Sources */ = {isa = PBXBuildFile; fileRef = C77BAE84B727FF64BB3C807624911935 /* GBPing.m */; };
+		B622B79A61972983196CA3D7111A3D6D /* ICMPHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FBA00BA7CEC773406C3947BCF708AD /* ICMPHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B76D8ADC02F3A663FC4EA9439A9E199E /* GBPingSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = 064CED997D58D24773245C33AA556F90 /* GBPingSummary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC3610C916705BB58463BD3771DFBEDC /* GBPing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE88B73BC231970EF60081B532D15168 /* GBPing-dummy.m */; };
+		C03D6C286059D5179382193C70CB56E8 /* GBPing.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6D92D5F54B07300949547F4687B1A2 /* GBPing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D874F2875BED5AA507EB7403BF2676 /* TestInterfaceFile.xib in Sources */ = {isa = PBXBuildFile; fileRef = C805A6969034CF420B4CBA051268233C /* TestInterfaceFile.xib */; };
+		E97492EF6687295F55E3AB449B934233 /* GTNetworkChecker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 415C07FB0BF7E8A3EDAB580C201423B4 /* GTNetworkChecker-dummy.m */; };
+		EDD3465FACB96C392E76A960BD18FF4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		75A2DA60D44C815A857AD6A14B2E6AB6 /* PBXContainerItemProxy */ = {
+		2E95F7A596CACB0E61E4658F009B90A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 618D47DF07094E5F84E2FA2067C58F9B;
+			remoteGlobalIDString = B1E1B23226E09977FC2CE4565A336050;
+			remoteInfo = GBPing;
+		};
+		8FC858DB0F6C59254F8D52FCC908D4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D660F8EB80B499C8392BEBEFD2E4461B;
 			remoteInfo = GTNetworkChecker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		064CED997D58D24773245C33AA556F90 /* GBPingSummary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBPingSummary.h; path = GBPing/GBPingSummary.h; sourceTree = "<group>"; };
+		06CC7E02AB5A03A267BE4D14EF22D958 /* GBPing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBPing-prefix.pch"; sourceTree = "<group>"; };
+		0AC3A703223962FDBEA82B7F5E5916C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AF2C32A37AC8DCD0779423CFCC67E86 /* Pods-GTNetworkChecker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTNetworkChecker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C7CF8F4D5D9C26E3BE8F83C9DD42B1D /* Pods-GTNetworkChecker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GTNetworkChecker_Example.modulemap"; sourceTree = "<group>"; };
+		0C7CF8F4D5D9C26E3BE8F83C9DD42B1D /* Pods-GTNetworkChecker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GTNetworkChecker_Example.modulemap"; sourceTree = "<group>"; };
 		0DCBB8896482B03D3F2C775D487ADFA9 /* Pods-GTNetworkChecker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTNetworkChecker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1121FE89BC0EA37235D76EEE19F4A085 /* Pods-GTNetworkChecker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNetworkChecker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		187F8B61855435396AFF493AE25E26D4 /* GTNetworkChecker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTNetworkChecker-umbrella.h"; sourceTree = "<group>"; };
 		413C998F13E8981A5D975C3CB64AC8AD /* GTNetworkChecker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTNetworkChecker.xcconfig; sourceTree = "<group>"; };
 		415C07FB0BF7E8A3EDAB580C201423B4 /* GTNetworkChecker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTNetworkChecker-dummy.m"; sourceTree = "<group>"; };
 		4381DA40299BB9856368E3AAAEDE8158 /* Pods-GTNetworkChecker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetworkChecker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4F15943CC9461A2793842F4A24600174 /* Pods-GTNetworkChecker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GTNetworkChecker_Tests.modulemap"; sourceTree = "<group>"; };
+		4484AC1E9638768CD2DCFA40A33217C7 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4F15943CC9461A2793842F4A24600174 /* Pods-GTNetworkChecker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GTNetworkChecker_Tests.modulemap"; sourceTree = "<group>"; };
+		533DB57D98E8F754E0A2C7A9B8F88075 /* GBPing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBPing-umbrella.h"; sourceTree = "<group>"; };
 		562DC44B7BA96249F0150C76009F669B /* Pods-GTNetworkChecker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetworkChecker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5742B84F1BC9678F1AE07311877C84B8 /* Pods-GTNetworkChecker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTNetworkChecker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5E4B918462ADE025136273D112B26D01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620DBD5F6CA5F8724B770C86EE4179B0 /* GBPing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBPing.xcconfig; sourceTree = "<group>"; };
+		65BCF2D5E4A30368F648478EB3E06B06 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		72AC535C586660C079118316BB5B9050 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		763EA4EFB04F916F9D5DBD62C36AAC54 /* Pods-GTNetworkChecker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetworkChecker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7D8A87B418C91DE1A1B211FE366C81F8 /* GTNetworkChecker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GTNetworkChecker.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7D8A87B418C91DE1A1B211FE366C81F8 /* GTNetworkChecker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTNetworkChecker.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B4D99369D5C84BA45167B86D974F5BC /* Pods-GTNetworkChecker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTNetworkChecker_Tests-dummy.m"; sourceTree = "<group>"; };
-		9CBAF342EA9FE450B34447FD616188A3 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		AAA23E7A3EAFB6093165635F0BEFD1D2 /* Pods-GTNetworkChecker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNetworkChecker_Tests-resources.sh"; sourceTree = "<group>"; };
+		B25F5F4750A15A336760A6460830E787 /* GBPingSummary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBPingSummary.m; path = GBPing/GBPingSummary.m; sourceTree = "<group>"; };
 		B79E76505E509D1493265533C07B5DBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9675D3D43E229483B66ABF4E7F6801D /* Pods_GTNetworkChecker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTNetworkChecker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7962B929D149E37506C9890A302E43 /* GTNetworkChecker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTNetworkChecker-prefix.pch"; sourceTree = "<group>"; };
 		BE47A69844EFF1E622D14A167F3C28C7 /* Pods-GTNetworkChecker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNetworkChecker_Example-resources.sh"; sourceTree = "<group>"; };
 		BFC7DD6DEA54614D250617A28558B63D /* Pods-GTNetworkChecker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTNetworkChecker_Example-umbrella.h"; sourceTree = "<group>"; };
-		C1BB72123B79CFFF0A39A86C7824932F /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		C61EFA78215DDB8C06403F6EEF9BA309 /* GTNetworkChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTNetworkChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61F21FDB92ABEB9DA1296E3A3CF40B6 /* Pods-GTNetworkChecker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTNetworkChecker_Example-dummy.m"; sourceTree = "<group>"; };
 		C6AA784ADFC43D9FCC27A1DCFCBBACDC /* Pods-GTNetworkChecker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNetworkChecker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CAE21446FAFC71FE4C472109FB2C03AC /* Pods_GTNetworkChecker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTNetworkChecker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77BAE84B727FF64BB3C807624911935 /* GBPing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBPing.m; path = GBPing/GBPing.m; sourceTree = "<group>"; };
+		C805A6969034CF420B4CBA051268233C /* TestInterfaceFile.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TestInterfaceFile.xib; sourceTree = "<group>"; };
 		D1B25491C009D0D97CBFAADCA55422F8 /* Pods-GTNetworkChecker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTNetworkChecker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D581AD472954BE7A5EFA8D8D1248A557 /* GBPing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GBPing.modulemap; sourceTree = "<group>"; };
 		E2A1F00D8A3BB6217B233B151364DF03 /* Pods-GTNetworkChecker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTNetworkChecker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E489AC7DA525397FB96D5818B0267751 /* GBPing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GBPing.framework; path = GBPing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E708A13B59EB3DA69739DAF3A8A37169 /* Pods-GTNetworkChecker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetworkChecker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6D92D5F54B07300949547F4687B1A2 /* GBPing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBPing.h; path = GBPing/GBPing.h; sourceTree = "<group>"; };
+		EB2912054D5131118ED8652C00F2BEA7 /* Pods_GTNetworkChecker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTNetworkChecker_Example.framework; path = "Pods-GTNetworkChecker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE5A7236DD23107F360985E5A6D1580 /* GTNetworkChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTNetworkChecker.framework; path = GTNetworkChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0803BD4E714AE838E86C83D05BD39CE /* Pods_GTNetworkChecker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTNetworkChecker_Tests.framework; path = "Pods-GTNetworkChecker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FBA00BA7CEC773406C3947BCF708AD /* ICMPHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICMPHeader.h; path = GBPing/ICMPHeader.h; sourceTree = "<group>"; };
+		FE88B73BC231970EF60081B532D15168 /* GBPing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBPing-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1E649AF58BF7F88849824B1418E533FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A348A1B839C8782C102A643BB174F5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29DD452A6270E66C552FD895DE5BA482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,33 +112,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		954A8E44292152DF0A7F4C23F12266E0 /* Frameworks */ = {
+		2DE2C96090CB02FDA41A0EFEC49BAE50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A98931ABD16AFE454C63334AAD6F4E /* Foundation.framework in Frameworks */,
+				EDD3465FACB96C392E76A960BD18FF4E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6C5801A10025FCD29E55BBF6906393F /* Frameworks */ = {
+		530EA7F8F8E8B36F4B6E090CB250F373 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E70F61FA41EC8A61486B993C9576B3 /* Foundation.framework in Frameworks */,
+				40BCD6165E2BC9E0DD1FE2586C1D4D44 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CC4702FAE4402BF8104FD26AA80EA9E /* Products */ = {
+		0DEC11183FCB716A903344315B6E9CE4 /* GTNetworkChecker */ = {
 			isa = PBXGroup;
 			children = (
-				C61EFA78215DDB8C06403F6EEF9BA309 /* GTNetworkChecker.framework */,
-				CAE21446FAFC71FE4C472109FB2C03AC /* Pods_GTNetworkChecker_Example.framework */,
-				B9675D3D43E229483B66ABF4E7F6801D /* Pods_GTNetworkChecker_Tests.framework */,
+				3620C9D39B27809D466DD5492048EB1A /* Classes */,
+			);
+			name = GTNetworkChecker;
+			path = GTNetworkChecker;
+			sourceTree = "<group>";
+		};
+		304F98C27EB2D3A88FD8BCB95DE10B1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DCA8092ACE22C4C50EBBCAA0FB4FEB2 /* GBPing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3620C9D39B27809D466DD5492048EB1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65BCF2D5E4A30368F648478EB3E06B06 /* Reachability.h */,
+				4484AC1E9638768CD2DCFA40A33217C7 /* Reachability.m */,
+				C805A6969034CF420B4CBA051268233C /* TestInterfaceFile.xib */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4B66ECDFCDCAFFF8D7CF84E797E309E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E489AC7DA525397FB96D5818B0267751 /* GBPing.framework */,
+				EFE5A7236DD23107F360985E5A6D1580 /* GTNetworkChecker.framework */,
+				EB2912054D5131118ED8652C00F2BEA7 /* Pods_GTNetworkChecker_Example.framework */,
+				F0803BD4E714AE838E86C83D05BD39CE /* Pods_GTNetworkChecker_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCA8092ACE22C4C50EBBCAA0FB4FEB2 /* GBPing */ = {
+			isa = PBXGroup;
+			children = (
+				EA6D92D5F54B07300949547F4687B1A2 /* GBPing.h */,
+				C77BAE84B727FF64BB3C807624911935 /* GBPing.m */,
+				064CED997D58D24773245C33AA556F90 /* GBPingSummary.h */,
+				B25F5F4750A15A336760A6460830E787 /* GBPingSummary.m */,
+				F4FBA00BA7CEC773406C3947BCF708AD /* ICMPHeader.h */,
+				72CD9BDF8E5A594C7744ABC08F6C7357 /* Support Files */,
+			);
+			name = GBPing;
+			path = GBPing;
+			sourceTree = "<group>";
+		};
+		72CD9BDF8E5A594C7744ABC08F6C7357 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D581AD472954BE7A5EFA8D8D1248A557 /* GBPing.modulemap */,
+				620DBD5F6CA5F8724B770C86EE4179B0 /* GBPing.xcconfig */,
+				FE88B73BC231970EF60081B532D15168 /* GBPing-dummy.m */,
+				06CC7E02AB5A03A267BE4D14EF22D958 /* GBPing-prefix.pch */,
+				533DB57D98E8F754E0A2C7A9B8F88075 /* GBPing-umbrella.h */,
+				0AC3A703223962FDBEA82B7F5E5916C9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GBPing";
 			sourceTree = "<group>";
 		};
 		747849B770F5671BC131D17E73308BF8 /* Targets Support Files */ = {
@@ -138,17 +231,10 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				866834065C1A93C43E0BA9FDEED3223D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2CC4702FAE4402BF8104FD26AA80EA9E /* Products */,
+				304F98C27EB2D3A88FD8BCB95DE10B1F /* Pods */,
+				4B66ECDFCDCAFFF8D7CF84E797E309E0 /* Products */,
 				747849B770F5671BC131D17E73308BF8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		80315CA9698AC3EB39AB5C37A3E9ABE8 /* GTNetworkChecker */ = {
-			isa = PBXGroup;
-			children = (
-				AA8029FAB92E43947C256714EDEDD5D1 /* Classes */,
-			);
-			path = GTNetworkChecker;
 			sourceTree = "<group>";
 		};
 		866834065C1A93C43E0BA9FDEED3223D /* Development Pods */ = {
@@ -157,15 +243,6 @@
 				E60A05E38A10368A6EA3246213DF654D /* GTNetworkChecker */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		AA8029FAB92E43947C256714EDEDD5D1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9CBAF342EA9FE450B34447FD616188A3 /* Reachability.h */,
-				C1BB72123B79CFFF0A39A86C7824932F /* Reachability.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -219,7 +296,7 @@
 		E60A05E38A10368A6EA3246213DF654D /* GTNetworkChecker */ = {
 			isa = PBXGroup;
 			children = (
-				80315CA9698AC3EB39AB5C37A3E9ABE8 /* GTNetworkChecker */,
+				0DEC11183FCB716A903344315B6E9CE4 /* GTNetworkChecker */,
 				D8B8A61FBED9F8BC61B620CDAA274EE4 /* Support Files */,
 			);
 			name = GTNetworkChecker;
@@ -229,21 +306,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1C22D12A03869E14E6B823A5CC4C4BC3 /* Headers */ = {
+		0C39259CE5B98FB2458E2AFA787DF101 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C049BFF5D86F3C9A45EE16570E7D573 /* Pods-GTNetworkChecker_Example-umbrella.h in Headers */,
-				060583201E93C8B500A141D8 /* Reachability.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		41093E201A80961D3A4967AF1263C213 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3959109EB11561D9F95407DFDE3BA9EF /* GTNetworkChecker-umbrella.h in Headers */,
-				D461CC2FF00963CDD041053E3C48E03D /* Reachability.h in Headers */,
+				6E701B33997365427F0CCA58DB1F27AA /* GTNetworkChecker-umbrella.h in Headers */,
+				18F7FE6412B499451B34C6639B8847D2 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,42 +323,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6BD42078904E821F09BAF87F8B9F426 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEA0CF51E01FCFC88EE454BBAEEF352 /* GBPing-umbrella.h in Headers */,
+				C03D6C286059D5179382193C70CB56E8 /* GBPing.h in Headers */,
+				B76D8ADC02F3A663FC4EA9439A9E199E /* GBPingSummary.h in Headers */,
+				B622B79A61972983196CA3D7111A3D6D /* ICMPHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BDDB3C1FBAE328D352CB18E3B09AC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2FC87988E9F788A0721E9A3831E01A /* Pods-GTNetworkChecker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		59F76BCA8B827A5A9731CB40AB07A8F4 /* Pods-GTNetworkChecker_Example */ = {
+		7A9F578CCD6022095666C7B3B8B8ACB7 /* Pods-GTNetworkChecker_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B2AB505EE7EF9F5A3622EE7B656B970 /* Build configuration list for PBXNativeTarget "Pods-GTNetworkChecker_Example" */;
+			buildConfigurationList = AF06575D69941ADED283F01C654489AE /* Build configuration list for PBXNativeTarget "Pods-GTNetworkChecker_Example" */;
 			buildPhases = (
-				9206607304CEEDD8EECF1D224C73287C /* Sources */,
-				D6C5801A10025FCD29E55BBF6906393F /* Frameworks */,
-				1C22D12A03869E14E6B823A5CC4C4BC3 /* Headers */,
+				99464A8F687B9110935C47DA18582D05 /* Sources */,
+				2DE2C96090CB02FDA41A0EFEC49BAE50 /* Frameworks */,
+				D7BDDB3C1FBAE328D352CB18E3B09AC0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C6C80684C1BE94535B4ACC78F01354E8 /* PBXTargetDependency */,
+				87FA6D2619D66D3936CD128F0F4DF49C /* PBXTargetDependency */,
+				D416A6F9E1EADB22866B5D083C335FA3 /* PBXTargetDependency */,
 			);
 			name = "Pods-GTNetworkChecker_Example";
 			productName = "Pods-GTNetworkChecker_Example";
-			productReference = CAE21446FAFC71FE4C472109FB2C03AC /* Pods_GTNetworkChecker_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		618D47DF07094E5F84E2FA2067C58F9B /* GTNetworkChecker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4160ADF00FDE121489CC3E973D447A33 /* Build configuration list for PBXNativeTarget "GTNetworkChecker" */;
-			buildPhases = (
-				731A39DB2B47B0B3A83CC1AA1E8F66AF /* Sources */,
-				954A8E44292152DF0A7F4C23F12266E0 /* Frameworks */,
-				41093E201A80961D3A4967AF1263C213 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GTNetworkChecker;
-			productName = GTNetworkChecker;
-			productReference = C61EFA78215DDB8C06403F6EEF9BA309 /* GTNetworkChecker.framework */;
+			productReference = EB2912054D5131118ED8652C00F2BEA7 /* Pods_GTNetworkChecker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8F4F5DE3EC26D4D938E24D04B4EA237E /* Pods-GTNetworkChecker_Tests */ = {
@@ -307,7 +378,41 @@
 			);
 			name = "Pods-GTNetworkChecker_Tests";
 			productName = "Pods-GTNetworkChecker_Tests";
-			productReference = B9675D3D43E229483B66ABF4E7F6801D /* Pods_GTNetworkChecker_Tests.framework */;
+			productReference = F0803BD4E714AE838E86C83D05BD39CE /* Pods_GTNetworkChecker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1E1B23226E09977FC2CE4565A336050 /* GBPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A90DC4370AAA569E5BE775EF112F7ED /* Build configuration list for PBXNativeTarget "GBPing" */;
+			buildPhases = (
+				19E2D24D45DA929F8DDB333439A74E31 /* Sources */,
+				530EA7F8F8E8B36F4B6E090CB250F373 /* Frameworks */,
+				C6BD42078904E821F09BAF87F8B9F426 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBPing;
+			productName = GBPing;
+			productReference = E489AC7DA525397FB96D5818B0267751 /* GBPing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D660F8EB80B499C8392BEBEFD2E4461B /* GTNetworkChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC50396FF3C1DCC760315D2F8A29C4F /* Build configuration list for PBXNativeTarget "GTNetworkChecker" */;
+			buildPhases = (
+				FC9D8FF6F927EA2485400160689AF5A8 /* Sources */,
+				1E649AF58BF7F88849824B1418E533FE /* Frameworks */,
+				0C39259CE5B98FB2458E2AFA787DF101 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTNetworkChecker;
+			productName = GTNetworkChecker;
+			productReference = EFE5A7236DD23107F360985E5A6D1580 /* GTNetworkChecker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,32 +432,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2CC4702FAE4402BF8104FD26AA80EA9E /* Products */;
+			productRefGroup = 4B66ECDFCDCAFFF8D7CF84E797E309E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				618D47DF07094E5F84E2FA2067C58F9B /* GTNetworkChecker */,
-				59F76BCA8B827A5A9731CB40AB07A8F4 /* Pods-GTNetworkChecker_Example */,
+				B1E1B23226E09977FC2CE4565A336050 /* GBPing */,
+				D660F8EB80B499C8392BEBEFD2E4461B /* GTNetworkChecker */,
+				7A9F578CCD6022095666C7B3B8B8ACB7 /* Pods-GTNetworkChecker_Example */,
 				8F4F5DE3EC26D4D938E24D04B4EA237E /* Pods-GTNetworkChecker_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		731A39DB2B47B0B3A83CC1AA1E8F66AF /* Sources */ = {
+		19E2D24D45DA929F8DDB333439A74E31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5306448D88FCAAC1E80B505817A3B286 /* GTNetworkChecker-dummy.m in Sources */,
-				F4639907817E426A07DE0D445A4A46C9 /* Reachability.m in Sources */,
+				BC3610C916705BB58463BD3771DFBEDC /* GBPing-dummy.m in Sources */,
+				AF4199130874A2F6CBE419898983768C /* GBPing.m in Sources */,
+				654BF82A1108048B9E54CD8F2202B63B /* GBPingSummary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9206607304CEEDD8EECF1D224C73287C /* Sources */ = {
+		99464A8F687B9110935C47DA18582D05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48AA1E088EB1C42578C7D20BA3843891 /* Pods-GTNetworkChecker_Example-dummy.m in Sources */,
+				4B712F3802175FE97CD6868554A4F989 /* Pods-GTNetworkChecker_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,18 +471,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC9D8FF6F927EA2485400160689AF5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97492EF6687295F55E3AB449B934233 /* GTNetworkChecker-dummy.m in Sources */,
+				315CFFBFD2E71C08E05164104A87C309 /* Reachability.m in Sources */,
+				C4D874F2875BED5AA507EB7403BF2676 /* TestInterfaceFile.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C6C80684C1BE94535B4ACC78F01354E8 /* PBXTargetDependency */ = {
+		87FA6D2619D66D3936CD128F0F4DF49C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBPing;
+			target = B1E1B23226E09977FC2CE4565A336050 /* GBPing */;
+			targetProxy = 2E95F7A596CACB0E61E4658F009B90A5 /* PBXContainerItemProxy */;
+		};
+		D416A6F9E1EADB22866B5D083C335FA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GTNetworkChecker;
-			target = 618D47DF07094E5F84E2FA2067C58F9B /* GTNetworkChecker */;
-			targetProxy = 75A2DA60D44C815A857AD6A14B2E6AB6 /* PBXContainerItemProxy */;
+			target = D660F8EB80B499C8392BEBEFD2E4461B /* GTNetworkChecker */;
+			targetProxy = 8FC858DB0F6C59254F8D52FCC908D4A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01F7258C563EDE934059160AC27056B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763EA4EFB04F916F9D5DBD62C36AAC54 /* Pods-GTNetworkChecker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GTNetworkChecker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTNetworkChecker_Example/Pods-GTNetworkChecker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GTNetworkChecker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11CE57D6F3F5A1B38D2D81C4F98E7F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413C998F13E8981A5D975C3CB64AC8AD /* GTNetworkChecker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTNetworkChecker/GTNetworkChecker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTNetworkChecker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTNetworkChecker/GTNetworkChecker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GTNetworkChecker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -424,9 +615,9 @@
 			};
 			name = Debug;
 		};
-		53553316A04AF8EF94DC157E351FC38F /* Release */ = {
+		67A2F64AF114627891321706F676E823 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 763EA4EFB04F916F9D5DBD62C36AAC54 /* Pods-GTNetworkChecker_Example.release.xcconfig */;
+			baseConfigurationReference = 620DBD5F6CA5F8724B770C86EE4179B0 /* GBPing.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -440,18 +631,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GTNetworkChecker_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GBPing/GBPing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBPing/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GTNetworkChecker_Example/Pods-GTNetworkChecker_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GBPing/GBPing.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GTNetworkChecker_Example;
+				PRODUCT_NAME = GBPing;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,9 +647,9 @@
 			};
 			name = Release;
 		};
-		6919642BCEE8C9BB0240D0AC5CB9B09F /* Debug */ = {
+		6B7BFC85EF8AA868FC19661397C3BD48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 413C998F13E8981A5D975C3CB64AC8AD /* GTNetworkChecker.xcconfig */;
+			baseConfigurationReference = E708A13B59EB3DA69739DAF3A8A37169 /* Pods-GTNetworkChecker_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -476,14 +663,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GTNetworkChecker/GTNetworkChecker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GTNetworkChecker/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTNetworkChecker_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GTNetworkChecker/GTNetworkChecker.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTNetworkChecker_Example/Pods-GTNetworkChecker_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GTNetworkChecker;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GTNetworkChecker_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,9 +727,9 @@
 			};
 			name = Release;
 		};
-		A63237210A3B2AD9A889472A1175B19E /* Debug */ = {
+		786894BF1A6652C1B684B4652FF2F36C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E708A13B59EB3DA69739DAF3A8A37169 /* Pods-GTNetworkChecker_Example.debug.xcconfig */;
+			baseConfigurationReference = 413C998F13E8981A5D975C3CB64AC8AD /* GTNetworkChecker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -552,18 +743,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GTNetworkChecker_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GTNetworkChecker/GTNetworkChecker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTNetworkChecker/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GTNetworkChecker_Example/Pods-GTNetworkChecker_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GTNetworkChecker/GTNetworkChecker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GTNetworkChecker_Example;
+				PRODUCT_NAME = GTNetworkChecker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,37 +759,37 @@
 			};
 			name = Debug;
 		};
-		B9CF768316A962249DF5D4EAB650C7B9 /* Release */ = {
+		7D1A8682A1DDD9CC594F16C5C3AAC5F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 413C998F13E8981A5D975C3CB64AC8AD /* GTNetworkChecker.xcconfig */;
+			baseConfigurationReference = 620DBD5F6CA5F8724B770C86EE4179B0 /* GBPing.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GTNetworkChecker/GTNetworkChecker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GTNetworkChecker/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GBPing/GBPing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBPing/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GTNetworkChecker/GTNetworkChecker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GTNetworkChecker;
+				MODULEMAP_FILE = "Target Support Files/GBPing/GBPing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GBPing;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CBA12F0E940FB45A8A62237E61B2C2F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -679,6 +866,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A90DC4370AAA569E5BE775EF112F7ED /* Build configuration list for PBXNativeTarget "GBPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1A8682A1DDD9CC594F16C5C3AAC5F3 /* Debug */,
+				67A2F64AF114627891321706F676E823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -688,20 +884,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4160ADF00FDE121489CC3E973D447A33 /* Build configuration list for PBXNativeTarget "GTNetworkChecker" */ = {
+		8BC50396FF3C1DCC760315D2F8A29C4F /* Build configuration list for PBXNativeTarget "GTNetworkChecker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6919642BCEE8C9BB0240D0AC5CB9B09F /* Debug */,
-				B9CF768316A962249DF5D4EAB650C7B9 /* Release */,
+				786894BF1A6652C1B684B4652FF2F36C /* Debug */,
+				11CE57D6F3F5A1B38D2D81C4F98E7F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B2AB505EE7EF9F5A3622EE7B656B970 /* Build configuration list for PBXNativeTarget "Pods-GTNetworkChecker_Example" */ = {
+		AF06575D69941ADED283F01C654489AE /* Build configuration list for PBXNativeTarget "Pods-GTNetworkChecker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A63237210A3B2AD9A889472A1175B19E /* Debug */,
-				53553316A04AF8EF94DC157E351FC38F /* Release */,
+				6B7BFC85EF8AA868FC19661397C3BD48 /* Debug */,
+				01F7258C563EDE934059160AC27056B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

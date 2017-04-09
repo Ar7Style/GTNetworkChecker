@@ -1,7 +1,9 @@
 PODS:
-  - GTNetworkChecker (0.1.0)
+  - GBPing (1.4.0)
+  - GTNetworkChecker (0.1.1)
 
 DEPENDENCIES:
+  - GBPing
   - GTNetworkChecker (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GTNetworkChecker: 9a76c6153644f548c259b86f1b3737bebdf0c2bd
+  GBPing: 1d91d253c93d01bbdcf797658e8cc0376e2e6842
+  GTNetworkChecker: 03b3a94b75f18bff45b6c1dd33b317aa8563cba6
 
-PODFILE CHECKSUM: e367bec1d532225a59363bb4292afd3f2431eafe
+PODFILE CHECKSUM: 82eb8e45a2fb44ba0ce5bf27d74599a5f10c5539
 
 COCOAPODS: 1.2.0

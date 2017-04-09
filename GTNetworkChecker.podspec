@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTNetworkChecker'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'Library that helps check internet quality of iOS device.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ar7Style' => 'g.tareyev@pediatr247.ru' }
   s.source           = { :git => 'https://github.com/Ar7Style/GTNetworkChecker.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/TareyevG'
 
   s.ios.deployment_target = '8.0'
 
