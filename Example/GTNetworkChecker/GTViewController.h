@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+#import <MessageUI/MessageUI.h>
 
-@interface GTViewController : UIViewController
+@interface GTViewController : UIViewController<MFMailComposeViewControllerDelegate> {
+    MFMailComposeViewController *mailComposer;
+}
 
 @end

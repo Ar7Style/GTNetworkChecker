@@ -11,6 +11,12 @@
 @interface GTUserDataModel : NSObject
 
 @property NSString* carrier;
+@property NSString* longitude;
+@property NSString* latitude;
+@property NSString* cityName;
+
+
+-(instancetype)initWithDictionary:(NSDictionary*)dict;
 
 
 @end

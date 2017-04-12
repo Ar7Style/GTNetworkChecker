@@ -14,6 +14,9 @@
     self = [super init];
     if (self) {
         _carrier = [dict valueForKey:@"carrier"];
+        _longitude = [dict valueForKey:@"longitude"];
+        _latitude = [dict valueForKey:@"latitude"];
+        _cityName = [dict valueForKey:@"cityName"];
     }
     return self;
 }

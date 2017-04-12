@@ -9,6 +9,9 @@
 #import "GTViewController.h"
 #import <GTNetworkChecker/Reachability.h>
 #import "GTBaseDataController.h"
+#import "GTUserDataModel.h"
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <CoreTelephony/CTCarrier.h>
 
 @interface GTViewController () <NSURLSessionDelegate, NSURLSessionDataDelegate> {
     NSString* internetSpeed;
@@ -23,6 +26,8 @@
 
 @property (nonatomic, weak) IBOutlet UIImageView *internetConnectionImageView;
 @property (nonatomic, weak) IBOutlet UITextField *internetConnectionStatusField;
+
+@property (nonatomic,strong) GTUserDataModel* userDataModel;
 
 @property (nonatomic) Reachability *hostReachability;
 @property (nonatomic) Reachability *internetReachability;
@@ -61,10 +66,16 @@
     GTBaseDataController* dataController = [GTBaseDataController sharedDataController];
    //[dataController getInternetSpeed];
     [dataController getPingLatency];
+    [self getCarrier];
     
 }
 
-
+-(void)getCarrier {
+    CTTelephonyNetworkInfo *netinfo = [[CTTelephonyNetworkInfo alloc] init];
+    CTCarrier *carrier = [netinfo subscriberCellularProvider];
+    self.userDataModel = [[GTUserDataModel alloc] initWithDictionary:@{@"carrier" : carrier.carrierName ? carrier.carrierName : @"simulator"}];
+    NSLog(@"User's carrier: %@", self.userDataModel.carrier);
+}
 
 #pragma mark - Reachability methods
 
@@ -146,6 +157,33 @@
         statusString= [NSString stringWithFormat:connectionRequiredFormatString, statusString];
     }
     textField.text= statusString;
+}
+
+
+#pragma mark - Actions
+
+- (IBAction)complinePressed:(id)sender {
+    NSLog(@"compline button pressed");
+    mailComposer = [[MFMailComposeViewController alloc]init];
+    mailComposer.mailComposeDelegate = self;
+    [mailComposer setToRecipients:@[@"tareyev.project@mail.ru"]];
+    [mailComposer setSubject:@"Connection troubles"];
+    [mailComposer setMessageBody:[NSString stringWithFormat:@"My carrier: %@ \n I've problem with internet connection at:  ", self.userDataModel.carrier] isHTML:NO];
+    if ([MFMailComposeViewController canSendMail])
+     [self presentViewController:mailComposer animated:YES completion:nil];
+}
+
+#pragma mark - mail compose delegate
+-(void)mailComposeController:(MFMailComposeViewController *)controller
+         didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+    if (result) {
+        NSLog(@"Result : %ld",(long)result);
+    }
+    if (error) {
+        NSLog(@"Error : %@",error);
+    }
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
 }
 
 
