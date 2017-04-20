@@ -20,6 +20,9 @@ typedef void (^CompletionHandler)();
 @property CFAbsoluteTime startTime;
 @property CFAbsoluteTime stopTime;
 @property GBPing* ping;
+@property NSString* infoAboutPing;
+@property double bestPing;
+@property double worstPing;
 
 + (instancetype)sharedDataController;
 -(NSString*)getInternetSpeed;

@@ -8,9 +8,14 @@
 
 @import UIKit;
 #import <MessageUI/MessageUI.h>
+#import <GBPing/GBPing.h>
 
-@interface GTViewController : UIViewController<MFMailComposeViewControllerDelegate> {
+@interface GTViewController : UIViewController<NSURLSessionDelegate, NSURLSessionTaskDelegate, NSURLSessionDataDelegate, NSURLSessionDownloadDelegate, NSURLSessionStreamDelegate, MFMailComposeViewControllerDelegate, GBPingDelegate> {
     MFMailComposeViewController *mailComposer;
 }
+@property GBPing* ping;
+@property NSString* infoAboutPing;
+@property double bestPing;
+@property double worstPing;
 
 @end

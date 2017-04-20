@@ -42,6 +42,13 @@
                                         </attributedString>
                                         <color key="highlightedColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calculating675 your speed . . ." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqT-MG-DoZ">
+                                        <rect key="frame" x="26" y="70" width="341" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.52960753440856934" blue="0.28964230418205261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -71,13 +78,49 @@
                                         </attributedString>
                                         <color key="highlightedColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking the worst ping . . ." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kl9-J9-duS">
+                                        <rect key="frame" x="28" y="102" width="339" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="c89-tU-RdO"/>
+                                            <constraint firstAttribute="width" constant="339" id="cxg-bk-O5S"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Counting ping results . . ." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovE-WT-1ib">
+                                        <rect key="frame" x="28" y="174" width="339" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="LoP-dn-FXT"/>
+                                            <constraint firstAttribute="width" constant="339" id="hze-oI-fgt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking the best ping . . ." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdE-bv-M7l">
+                                        <rect key="frame" x="28" y="57" width="339" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="339" id="Y2F-aH-yhR"/>
+                                            <constraint firstAttribute="height" constant="21" id="h3M-AH-7l0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.65199893712997437" blue="0.36666810512542725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Kl9-J9-duS" firstAttribute="leading" secondItem="t8A-BL-aQ9" secondAttribute="leading" constant="28" id="UcO-9s-NFN"/>
                                     <constraint firstItem="2Ck-cK-YSW" firstAttribute="top" secondItem="t8A-BL-aQ9" secondAttribute="top" constant="13" id="eaQ-2Z-WJO"/>
+                                    <constraint firstItem="ovE-WT-1ib" firstAttribute="centerX" secondItem="t8A-BL-aQ9" secondAttribute="centerX" constant="10" id="jdX-W9-YjB"/>
                                     <constraint firstAttribute="height" constant="225" id="kbA-cE-o09"/>
+                                    <constraint firstItem="OdE-bv-M7l" firstAttribute="leading" secondItem="t8A-BL-aQ9" secondAttribute="leading" constant="28" id="pqY-ic-b9E"/>
                                     <constraint firstAttribute="width" constant="375" id="sFm-4Q-Dhr"/>
+                                    <constraint firstItem="Kl9-J9-duS" firstAttribute="top" secondItem="OdE-bv-M7l" secondAttribute="bottom" constant="24" id="tHG-4U-Myp"/>
+                                    <constraint firstAttribute="bottom" secondItem="ovE-WT-1ib" secondAttribute="bottom" constant="30" id="tzm-pE-WBa"/>
                                     <constraint firstItem="2Ck-cK-YSW" firstAttribute="centerX" secondItem="t8A-BL-aQ9" secondAttribute="centerX" id="uPd-Z9-Quh"/>
+                                    <constraint firstItem="OdE-bv-M7l" firstAttribute="top" secondItem="2Ck-cK-YSW" secondAttribute="bottom" constant="20" id="vcg-m8-p9s"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dlN-6h-Acf">
@@ -109,7 +152,7 @@ Internet traffic will be routed through it.</string>
                                             <constraint firstAttribute="width" constant="31" id="9al-O0-hSr"/>
                                         </constraints>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Nn-qt-sLK">
+                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Nn-qt-sLK">
                                         <rect key="frame" x="40" y="58" width="287" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="p2M-I0-QNn"/>
@@ -119,7 +162,7 @@ Internet traffic will be routed through it.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nAY-m5-xuo">
+                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nAY-m5-xuo">
                                         <rect key="frame" x="40" y="91" width="287" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="WpH-yJ-BDf"/>
@@ -129,7 +172,7 @@ Internet traffic will be routed through it.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PRr-0d-FD9">
+                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PRr-0d-FD9">
                                         <rect key="frame" x="39" y="124" width="287" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="287" id="Qx6-Kl-g8V"/>
@@ -213,13 +256,17 @@ Internet traffic will be routed through it.</string>
                     </view>
                     <navigationItem key="navigationItem" title="Reachability" id="1rc-Aw-wqd"/>
                     <connections>
+                        <outlet property="bestPingLabel" destination="OdE-bv-M7l" id="EA6-Uc-ggk"/>
                         <outlet property="complineButton" destination="Xul-ch-QtA" id="Rd1-JK-U33"/>
                         <outlet property="internetConnectionImageView" destination="dCf-5u-yCD" id="8iB-CN-1NV"/>
                         <outlet property="internetConnectionStatusField" destination="PRr-0d-FD9" id="qSg-N5-3oe"/>
+                        <outlet property="pingResultLabel" destination="ovE-WT-1ib" id="ghE-Jp-JIa"/>
                         <outlet property="remoteHostImageView" destination="xJ9-gZ-CwC" id="m5W-3O-UIi"/>
                         <outlet property="remoteHostLabel" destination="4Nn-qt-sLK" id="LP0-DS-cVm"/>
                         <outlet property="remoteHostStatusField" destination="nAY-m5-xuo" id="MJt-6s-d3c"/>
+                        <outlet property="speedLabel" destination="YqT-MG-DoZ" id="btv-hR-hJV"/>
                         <outlet property="summaryLabel" destination="bby-T7-Piy" id="1Jj-zB-4Rz"/>
+                        <outlet property="worstPingLabel" destination="Kl9-J9-duS" id="SDp-4D-OmN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
